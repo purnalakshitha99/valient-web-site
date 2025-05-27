@@ -25,7 +25,7 @@ const supervisor = {
   department: "Faculty of Computing, SLIIT",
   education: "M.Sc. in IT, Specialized in Multimedia (UCSC)",
   email: "didula.c@sliit.lk",
-  photo: "src/img/didula.jpg" // Correct to .jpeg or .jpg if needed
+  photo: didula // Correct to .jpeg or .jpg if needed
 };
 
 const teamMembers: TeamMember[] = [
