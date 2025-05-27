@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-gray-800 bg-white;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold text-primary-900 leading-tight;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+  
+  p {
+    @apply leading-relaxed mb-4;
+  }
+  
+  a {
+    @apply text-accent-600 hover:text-accent-800 transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 font-medium rounded-lg transition-colors duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-4 focus:ring-primary-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary-600 text-white hover:bg-secondary-700 focus:ring-4 focus:ring-secondary-200;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary-600 text-primary-600 hover:bg-primary-50 focus:ring-4 focus:ring-primary-100;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300;
+  }
+  
+  .section-title {
+    @apply text-3xl font-bold text-primary-900 mb-6 relative;
+  }
+  
+  .section-title::after {
+    @apply content-[''] absolute left-0 bottom-0 w-20 h-1 bg-accent-500;
+  }
+  
+  .container-custom {
+    @apply container mx-auto px-4 py-12 md:py-16;
+  }
+}
+
+.timeline-item {
+  @apply relative pl-8 pb-8 border-l-2 border-primary-200 last:border-0 last:pb-0;
+}
+
+.timeline-dot {
+  @apply absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-primary-500;
+}
+
+.collapsible-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.collapsible-content.open {
+  max-height: 500px;
+}
+
+.vr-bg-gradient {
+  background: linear-gradient(135deg, #1a365d 0%, #2c7a7b 100%);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.document-card {
+  @apply flex flex-col border border-gray-200 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md;
+}
+
+.document-card__icon {
+  @apply p-4 text-white flex items-center justify-center;
+}
+
+.document-card__content {
+  @apply p-4 flex-1;
+}
+
+.document-card__title {
+  @apply font-medium text-gray-900 mb-1;
+}
+
+.document-card__desc {
+  @apply text-sm text-gray-600;
+}
+
+.document-card__footer {
+  @apply px-4 py-3 bg-gray-50 flex justify-between items-center;
+}
