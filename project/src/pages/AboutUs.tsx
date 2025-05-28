@@ -61,17 +61,7 @@ const teamMembers: TeamMember[] = [
     linkedin: 'https://linkedin.com/',
     bio: 'Focused on research methodology and data analysis.'
   },
-  {
-    id: 'member4',
-    name: 'Team Member 4',
-    role: 'UX Designer',
-    photo: didula,
-    email: 'member4@example.com',
-    specialization: 'User Experience Design',
-    github: 'https://github.com/',
-    linkedin: 'https://linkedin.com/',
-    bio: 'Specializing in user experience design for therapeutic applications.'
-  },
+
     {
     id: 'member4',
     name: 'Team Member 4',
