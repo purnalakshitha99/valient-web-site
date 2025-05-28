@@ -19,12 +19,12 @@ const documents: Document[] = [
     date: 'September 15, 2024',
     type: 'pdf',
     size: '2.4 MB',
-    downloadUrl: '#'
+    downloadUrl: 'https://drive.google.com/file/d/1qRgQOs0aMt8-YzpqFmgDamJLmmMJg2WF/view?usp=sharing'
   },
   {
     id: 'research-paper',
     title: 'Research Paper',
-    description: 'Published research paper detailing our findings and methodology.',
+    description: 'https://drive.google.com/file/d/1ADXlyTDQRoc5uJkn8sEg8WnR_cGO9Cq7/view?usp=sharing',
     date: 'March 15, 2025',
     type: 'pdf',
     size: '3.2 MB',
@@ -33,7 +33,7 @@ const documents: Document[] = [
   {
     id: 'final-report',
     title: 'Final Report',
-    description: 'Comprehensive final report of the research project.',
+    description: 'https://drive.google.com/file/d/1hxiIBnzU5UxbShrkgqDSFJDawuOA816T/view?usp=sharing',
     date: 'April 25, 2025',
     type: 'pdf',
     size: '4.8 MB',
