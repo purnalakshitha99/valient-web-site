@@ -121,9 +121,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             
             <div>
               <h4 className="text-lg font-bold mb-4 text-white">Contact</h4>
-              <p className="text-primary-100 mb-2">Department of Computer Science</p>
-              <p className="text-primary-100 mb-2">Email: research@university.edu</p>
-              <p className="text-primary-100">Phone: (123) 456-7890</p>
+              <p className="text-primary-100 mb-2">Interactive Media Department</p>
+              <p className="text-primary-100 mb-2">Email: sayuruimesh17@gmail.com</p>
+              <p className="text-primary-100">Phone: (+94) 70 324 86 86</p>
             </div>
           </div>
           
