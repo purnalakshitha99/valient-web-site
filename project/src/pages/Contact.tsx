@@ -82,25 +82,25 @@ const Contact: React.FC = () => {
                 icon={<Mail className="text-primary-600" size={24} />}
                 title="Email Us"
                 details={[
-                  "research@university.edu",
-                  "vr-therapy-lab@university.edu"
+                  "it21186042@my.sliit.lk",
+                  "it21202018@my.sliit.lk"
                 ]}
               />
               <ContactCard 
                 icon={<Phone className="text-primary-600" size={24} />}
                 title="Call Us"
                 details={[
-                  "(123) 456-7890",
-                  "Lab: (123) 456-7891"
+                  "(+94) 70 324 86 86"
+                 
                 ]}
               />
               <ContactCard 
                 icon={<MapPin className="text-primary-600" size={24} />}
                 title="Visit Us"
                 details={[
-                  "Department of Computer Science",
-                  "University Research Building",
-                  "123 Campus Drive, Room 301"
+                  "Interactive Media Department",
+                  "SLIIT, Malabe, Sri Lanka",
+                  
                 ]}
               />
             </div>
