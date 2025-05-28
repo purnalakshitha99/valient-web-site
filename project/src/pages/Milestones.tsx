@@ -63,7 +63,7 @@ const milestones: Milestone[] = [
   {
     id: 'final',
     title: 'Final Assessment & Viva',
-    date: 'April 25, 2025',
+    date: 'May 28, 2025',
     status: 'upcoming',
     description: 'Final project presentation, demonstration, and oral defense.',
    
