@@ -24,20 +24,20 @@ const documents: Document[] = [
   {
     id: 'research-paper',
     title: 'Research Paper',
-    description: 'https://drive.google.com/file/d/1ADXlyTDQRoc5uJkn8sEg8WnR_cGO9Cq7/view?usp=sharing',
+    description: 'Published research paper detailing our findings and methodology.',
     date: 'March 15, 2025',
     type: 'pdf',
     size: '3.2 MB',
-    downloadUrl: '#'
+    downloadUrl: 'https://drive.google.com/file/d/1ADXlyTDQRoc5uJkn8sEg8WnR_cGO9Cq7/view?usp=sharing'
   },
   {
     id: 'final-report',
     title: 'Final Report',
-    description: 'https://drive.google.com/file/d/1hxiIBnzU5UxbShrkgqDSFJDawuOA816T/view?usp=sharing',
+    description: 'Comprehensive final report of the research project.',
     date: 'April 25, 2025',
     type: 'pdf',
     size: '4.8 MB',
-    downloadUrl: '#'
+    downloadUrl: 'https://drive.google.com/file/d/1hxiIBnzU5UxbShrkgqDSFJDawuOA816T/view?usp=sharing'
   }
 ];
 
