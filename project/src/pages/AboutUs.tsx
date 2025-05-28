@@ -31,10 +31,10 @@ const supervisor = {
 const teamMembers: TeamMember[] = [
   {
     id: 'member1',
-    name: 'Team Member 1',
+    name: 'D.C.P Ranasinghe ',
     role: 'Team Lead',
     photo: charindu,
-    email: 'member1@example.com',
+    email: 'charindu2001@gmail.com',
     specialization: 'VR/AR Development',
     linkedin: 'https://linkedin.com/',
     github: 'https://github.com/',
@@ -42,10 +42,10 @@ const teamMembers: TeamMember[] = [
   },
   {
     id: 'member2',
-    name: 'Team Member 2',
+    name: 'E.M.D.K.L Ekanayaka',
     role: 'Technical Lead',
     photo: dinidu,
-    email: 'member2@example.com',
+    email: 'diniduekanayaka001@gmail.com',
     specialization: 'Unity Development',
     github: 'https://github.com/',
     linkedin: 'https://linkedin.com/',
@@ -53,10 +53,10 @@ const teamMembers: TeamMember[] = [
   },
   {
     id: 'member3',
-    name: 'Team Member 3',
+    name: 'R.L.R.R Premarathna',
     role: 'Research Coordinator',
     photo: ruhan,
-    email: 'member3@example.com',
+    email: 'Ruhanrandika@gmail.com',
     specialization: 'Research Methodology',
     linkedin: 'https://linkedin.com/',
     bio: 'Focused on research methodology and data analysis.'
@@ -64,10 +64,10 @@ const teamMembers: TeamMember[] = [
 
     {
     id: 'member4',
-    name: 'Team Member 4',
+    name: 'K.S.S.I Sumanadasa',
     role: 'UX Designer',
     photo: sayuru,
-    email: 'member4@example.com',
+    email: 'sayuruimesh17@gmail.com',
     specialization: 'User Experience Design',
     github: 'https://github.com/',
     linkedin: 'https://linkedin.com/',
