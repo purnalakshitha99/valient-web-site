@@ -22,7 +22,7 @@ const presentations: PresentationItem[] = [
     slides: 24,
      presenters: ['All Team Members'],
     viewUrl: '#',
-    downloadUrl: '#',
+    downloadUrl: 'https://mysliit.sharepoint.com/:b:/s/CDAPSubmissionCloud/ERWcqcP29BVKn129-LMPP0IBzMgUrfzyLJUwYvd92pQ-_w?e=2xRgKn',
     thumbnail: 'https://cdn-icons-png.freepik.com/256/2838/2838127.png?ga=GA1.1.1912292379.1745836464&semt=ais_hybrid'
   },
   {
@@ -33,7 +33,7 @@ const presentations: PresentationItem[] = [
     slides: 28,
     presenters: ['All Team Members'],
     viewUrl: '#',
-    downloadUrl: '#',
+    downloadUrl: 'https://mysliit.sharepoint.com/:f:/s/CDAPSubmissionCloud/En5lzpSSDvpBkhPpdz1CkS0B1-4tVzJ_QR7U-vqVk-Adxg?e=B9HQir',
     thumbnail: 'https://cdn-icons-png.freepik.com/256/2838/2838127.png?ga=GA1.1.1912292379.1745836464&semt=ais_hybrid'
   },
   {
@@ -44,7 +44,7 @@ const presentations: PresentationItem[] = [
     slides: 32,
      presenters: ['All Team Members'],
     viewUrl: '#',
-    downloadUrl: '#',
+    downloadUrl: 'https://mysliit.sharepoint.com/:f:/s/CDAPSubmissionCloud/EnHdrh8eEtpFjnNNKiLUWcoB0eyJaun0HpdeKtMwmlNJew?e=ceGbNA',
     thumbnail: 'https://cdn-icons-png.freepik.com/256/2838/2838127.png?ga=GA1.1.1912292379.1745836464&semt=ais_hybrid'
   },
   {
@@ -55,7 +55,7 @@ const presentations: PresentationItem[] = [
     slides: 40,
     presenters: ['All Team Members'],
     viewUrl: '#',
-    downloadUrl: '#',
+    downloadUrl: 'https://mysliit.sharepoint.com/:f:/s/CDAPSubmissionCloud/EgwB-P1JQydGks4uJm4q4OsB3xmSwcGcG34fpNGjia944A?e=MagSdh',
     thumbnail: 'https://cdn-icons-png.freepik.com/256/2838/2838127.png?ga=GA1.1.1912292379.1745836464&semt=ais_hybrid'
   }
 ];
